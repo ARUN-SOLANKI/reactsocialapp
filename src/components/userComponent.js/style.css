@@ -1,0 +1,30 @@
+.container {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  background-color: #efefef;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.imgtag {
+  height: 60px;
+  width: 60px;
+  border-radius: 30px;
+}
+.noimage {
+  height: 60px;
+  width: 60px;
+  border-radius: 30px;
+  background-color: #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+}
+.details {
+  margin-left: 10px;
+}
+.container:hover {
+  padding: 10px;
+  transition: ease-out 0.7s;
+}
